@@ -16,4 +16,61 @@
       </plugin>
     </plugins>
   </build>
+  
+	<dependencies>
+  	
+	<!-- https://mvnrepository.com/artifact/org.datavec/datavec-api -->
+	<dependency>
+    	<groupId>org.datavec</groupId>
+    	<artifactId>datavec-api</artifactId>
+    	<version>0.9.1</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.datavec/datavec-data-image -->
+	<dependency>
+    	<groupId>org.datavec</groupId>
+    	<artifactId>datavec-data-image</artifactId>
+    	<version>0.9.1</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-core -->
+	<dependency>
+    	<groupId>org.deeplearning4j</groupId>
+    	<artifactId>deeplearning4j-core</artifactId>
+    	<version>0.9.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+	<dependency>
+    	<groupId>org.slf4j</groupId>
+    	<artifactId>slf4j-api</artifactId>
+    	<version>1.7.25</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nn -->
+	<dependency>
+    	<groupId>org.deeplearning4j</groupId>
+    	<artifactId>deeplearning4j-nn</artifactId>
+    	<version>0.9.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-api -->
+	<dependency>
+    	<groupId>org.nd4j</groupId>
+    	<artifactId>nd4j-api</artifactId>
+    	<version>0.9.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-cuda-7.5 -->
+	<dependency>
+    	<groupId>org.nd4j</groupId>
+    	<artifactId>nd4j-cuda-7.5</artifactId>
+    	<version>0.9.1</version>
+	</dependency>
+	
+	
+	
+  				
+	</dependencies>
+	
 </project>
